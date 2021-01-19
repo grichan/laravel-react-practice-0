@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-function User() {
+function Home() {
     return (
         <div className="container mt-5">
             <div className="row justify-content-center">
@@ -17,9 +17,4 @@ function User() {
     );
 }
 
-export default User;
-
-// DOM element
-if (document.getElementById('user')) {
-    ReactDOM.render(<User />, document.getElementById('user'));
-}
+export default Home;
