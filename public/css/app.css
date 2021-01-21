@@ -7,6 +7,7 @@ body {
 nav {
   display: flex;
 }
+
 nav ul {
   display: flex;
   flex-direction: row;
@@ -14,12 +15,15 @@ nav ul {
   align-items: center;
   width: 100%;
 }
+
 nav ul ul {
   display: flex;
 }
+
 nav ul li {
   padding: 1em;
 }
+
 nav ul #nav-logo {
   margin: 0 3em;
 }

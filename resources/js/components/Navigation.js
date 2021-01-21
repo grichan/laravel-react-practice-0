@@ -4,7 +4,7 @@ function Navigation() {
     return (
         <nav>
             <ul className="bg-red-500">
-                    <ul className="justify-end">
+                    <ul className="justify-end mg-1">
                         <li>Home</li>
                         <li>Creative Title</li>
                     </ul>
