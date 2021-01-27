@@ -1,19 +1,24 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url("https://fonts.googleapis.com/css?family=Nunito");
 
 // Variables
-@import 'variables';
+@import "variables";
 
 // Bootstrap
 // @import '~bootstrap/scss/bootstrap';
 
 body {
-    background-color: black;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: 600;
 }
 
 nav {
     display: flex;
+    background-color: white;
+    padding: 10px 0;
+    // margin: 0;
+    // width: 100%;
     // flex-direction: row;
 
     ul {
@@ -22,7 +27,7 @@ nav {
         list-style-type: none;
         // justify-content: space-between;
         align-items: center;
-        width: 100%;
+        // width: 100%;
 
         ul {
             display: flex;
@@ -35,6 +40,46 @@ nav {
         #nav-logo {
             margin: 0 3em;
         }
+    }
+}
+
+.tech-slideshow {
+    height: 200px;
+    // max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+}
+
+.tech-slideshow > div {
+    height: 200px;
+    width: 100%;
+    width: 2526px;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/collage.jpg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    transform: translate3d(0, 0, 0);
+}
+.tech-slideshow .mover-1 {
+    animation: moveSlideshow 52s linear infinite;
+}
+.tech-slideshow .mover-2 {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+    background-position: 0 -200px;
+    animation: moveSlideshow 15s linear infinite;
+}
+.tech-slideshow:hover .mover-2 {
+    // opacity: 1;
+}
+
+@keyframes moveSlideshow {
+    100% {
+        transform: translateX(-66.6666%);
     }
 }
 

@@ -1,11 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Navigation from './Navigation';
+import React from "react";
+import ReactDOM from "react-dom";
+import Navigation from "./Navigation";
+import Landing from "./Landing";
 
 function App() {
     return (
-        <div className="container mt-5">
-            <Navigation/>
+        <div className="w-full">
+            <Navigation />
+            <Landing />
         </div>
     );
 }
@@ -13,6 +15,6 @@ function App() {
 export default App;
 
 // DOM element
-if (document.getElementById('App')) {
-    ReactDOM.render(<App />, document.getElementById('App'));
+if (document.getElementById("App")) {
+    ReactDOM.render(<App />, document.getElementById("App"));
 }
