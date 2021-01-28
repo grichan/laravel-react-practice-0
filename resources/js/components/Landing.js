@@ -1,5 +1,7 @@
 import React from "react";
 import Header from "./Header";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faClock, faCalendar, faCheckCircle } from '@fortawesome/free-regular-svg-icons'
 
 function Landing() {
     return (
@@ -22,41 +24,54 @@ function Landing() {
                     </div>
                 </div>
             </div>
-            <div className="bg-white mx-56 my-20 text-center">
+            <div className="bg-white mx-56 my-16 text-center">
                 <h2 className="text-7xl">How We Deliver</h2>
                 <p className="p-20 text-xl">
                     We build impactful UX design and branding for product-led companies around the world. Using the industry-proven methods Jobs to be Done and Design Sprints, we've developed a highly optimised process that brings results in just a few weeks.
                 </p>
-                <div className="flex flex-row justify-between">
-                    <div className="flex flex-col">
+                <div className="flex flex-row justify-around">
+                    <div className="flex flex-col text-left">
                         <img src="https://placeimg.com/200/200/cats" alt=""/>
-                        <h3 className="text-6xl">Products</h3>
+                        <h3 className="text-6xl py-5">Products</h3>
+                        <p className="text-lg flex flex-col">
+                            <FontAwesomeIcon icon={faClock} size="lg" /> 5-8 weeks duration <br/>
+                            <FontAwesomeIcon icon={faCalendar} size="lg" /> 3-4 weeks lead time <br/>
+                            <FontAwesomeIcon icon={faCheckCircle} size="lg" /> Deliverables: <br/>
+                            <ul className="pt-3">
+                                <li>· JTBD Workshop</li>
+                                <li>· UX Research</li>
+                                <li>· Information Architecture</li>
+                                <li>· Wireframes (fuli UX design)</li>
+                                <li>· Usability Testing</li>
+                                <li>· UI Mockups (fuli product design)</li>
+                                <li>· Iconography</li>
+                                <li>· Design System</li>
+                            </ul>
+                            <button className="bg-black text-white rounded p-1 font-semibold my-3 w-44 mx-auto">
+                                Find out more
+                            </button>
+                        </p>
                     </div>
-                    <div className="text-6xl mt-32 flex flex-col">
+                    <div className="text-6xl mt-32 flex flex-col text-left">
                         <img src="https://placeimg.com/200/200/dogs" alt=""/>
-                        <h3>Branding</h3>
-                        <p className="text-lg">
-                             5-8 weeks duration
-
-                            3-4 weeks lead time
-
-                            Deliverables:
-
-                            · JTBD Workshop
-
-                            · UX Research
-
-                            · Information Architecture
-
-                            · Wireframes (full UX design)
-
-                            · Usability Testing
-
-                            · UI Mockups (full product design)
-
-                            · Iconography
-
-                            · Design System
+                        <h3 className="py-5">Branding</h3>
+                        <p className="text-lg flex flex-col">
+                            <FontAwesomeIcon icon={faClock} size="lg" /> 5-8 weeks duration <br/>
+                            <FontAwesomeIcon icon={faCalendar} size="lg" /> 3-4 weeks lead time <br/>
+                            <FontAwesomeIcon icon={faCheckCircle} size="lg" /> Deliverables: <br/>
+                            <ul className="pt-3">
+                                <li>· Branding Workshop</li>
+                                <li>· Multiple logo design concepts</li>
+                                <li>· Custom illustrations and patterns</li>
+                                <li>· Color Palette</li>
+                                <li>· Typography</li>
+                                <li>· Social Media Designs</li>
+                                <li>· Collateral</li>
+                                <li>· Brand Styleguide</li>
+                            </ul>
+                            <button className="bg-black text-white rounded p-1 font-semibold my-3 w-44 mx-auto">
+                                Explore more
+                            </button>
                         </p>
                     </div>
                 </div>

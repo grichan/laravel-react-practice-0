@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 function Navigation() {
     return (
@@ -19,7 +19,7 @@ function Navigation() {
                 </ul>
             </ul>
         </nav>
-    )
+    );
 }
 
-export default Navigation
+export default Navigation;
