@@ -87,8 +87,20 @@ function Landing() {
                         </p>
                     </div>
                 </div>
+            </div>
+            <div className="bg-indigo-900 rounded-3xl p-32 m-5 flex flex-row justify-between">
                 <div className="">
-                    asd
+                    <h2 className="text-8xl text-white">App</h2>
+                    <p className="text-xl text-white py-5">Intuitive UI/UX experience for crypto</p>
+                        <button className="bg-black text-white rounded-full p-1 font-semibold my-3 w-20 mx-1">
+                            Design
+                        </button>
+                        <button className="bg-black text-white rounded-full p-1 font-semibold my-3 w-20 mx-1">
+                            Brand
+                        </button>
+                </div>
+                <div className="left-3">
+                    <img src="./phone.png" alt="" className=""/>
                 </div>
             </div>
         </div>
