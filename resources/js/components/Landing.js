@@ -34,9 +34,15 @@ function Landing() {
                         <img src="https://placeimg.com/200/200/cats" alt=""/>
                         <h3 className="text-6xl py-5">Products</h3>
                         <p className="text-lg flex flex-col">
-                            <FontAwesomeIcon icon={faClock} size="lg" /> 5-8 weeks duration <br/>
-                            <FontAwesomeIcon icon={faCalendar} size="lg" /> 3-4 weeks lead time <br/>
-                            <FontAwesomeIcon icon={faCheckCircle} size="lg" /> Deliverables: <br/>
+                            <div>
+                                <FontAwesomeIcon icon={faClock} size="lg" /> 5-8 weeks duration <br />
+                            </div>
+                            <div>
+                                <FontAwesomeIcon icon={faCalendar} size="lg" /> 3-4 weeks lead time <br/>
+                            </div>
+                            <div>
+                                <FontAwesomeIcon icon={faCheckCircle} size="lg" /> Deliverables: <br/>
+                            </div>
                             <ul className="pt-3">
                                 <li>· JTBD Workshop</li>
                                 <li>· UX Research</li>
@@ -56,9 +62,15 @@ function Landing() {
                         <img src="https://placeimg.com/200/200/dogs" alt=""/>
                         <h3 className="py-5">Branding</h3>
                         <p className="text-lg flex flex-col">
-                            <FontAwesomeIcon icon={faClock} size="lg" /> 5-8 weeks duration <br/>
-                            <FontAwesomeIcon icon={faCalendar} size="lg" /> 3-4 weeks lead time <br/>
-                            <FontAwesomeIcon icon={faCheckCircle} size="lg" /> Deliverables: <br/>
+                            <div>
+                                <FontAwesomeIcon icon={faClock} size="lg" /> 5-8 weeks duration <br />
+                            </div>
+                            <div>
+                                <FontAwesomeIcon icon={faCalendar} size="lg" /> 3-4 weeks lead time <br/>
+                            </div>
+                            <div>
+                                <FontAwesomeIcon icon={faCheckCircle} size="lg" /> Deliverables: <br/>
+                            </div>
                             <ul className="pt-3">
                                 <li>· Branding Workshop</li>
                                 <li>· Multiple logo design concepts</li>
@@ -74,6 +86,9 @@ function Landing() {
                             </button>
                         </p>
                     </div>
+                </div>
+                <div className="">
+                    asd
                 </div>
             </div>
         </div>
