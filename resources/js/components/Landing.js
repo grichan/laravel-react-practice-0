@@ -88,7 +88,37 @@ function Landing() {
                     </div>
                 </div>
             </div>
-            <div className="bg-indigo-900 rounded-3xl p-32 m-5 flex flex-row justify-between">
+            <div className="bg-indigo-800 transform transition duration-1000 ease-in-out hover:scale-95 motion-reduce:transform-none rounded-3xl p-32 m-5 flex flex-row justify-between">
+                <div className="">
+                    <h2 className="text-8xl text-white">App</h2>
+                    <p className="text-xl text-white py-5">Intuitive UI/UX experience for crypto</p>
+                        <button className="bg-black text-white rounded-full p-1 font-semibold my-3 w-20 mx-1">
+                            Design
+                        </button>
+                        <button className="bg-black text-white rounded-full p-1 font-semibold my-3 w-20 mx-1">
+                            Brand
+                        </button>
+                </div>
+                <div className="left-3">
+                    <img src="./phone.png" alt="" className=""/>
+                </div>
+            </div>
+                        <div className="bg-space_gray transform transition duration-1000 ease-in-out hover:scale-95 motion-reduce:transform-none rounded-3xl p-32 m-5 flex flex-row justify-between">
+                <div className="">
+                    <h2 className="text-8xl text-black">Other</h2>
+                    <p className="text-xl text-black py-5">Transforming something to something else</p>
+                        <button className="bg-white text-black rounded-full p-1 font-semibold my-3 w-20 mx-1">
+                            Design
+                        </button>
+                        <button className="bg-white text-black rounded-full p-1 font-semibold my-3 w-20 mx-1">
+                            Brand
+                        </button>
+                </div>
+                <div className="left-3">
+                    <img src="./7.jpg" alt="" className=""/>
+                </div>
+            </div>
+                        <div className="bg-indigo-500 transform transition duration-1000 ease-in-out hover:scale-95 motion-reduce:transform-none rounded-3xl p-32 m-5 flex flex-row justify-between">
                 <div className="">
                     <h2 className="text-8xl text-white">App</h2>
                     <p className="text-xl text-white py-5">Intuitive UI/UX experience for crypto</p>
