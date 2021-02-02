@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
     return (
-        <header className="bg-white flex flex-col">
+        <header className="bg-white flex flex-col w-auto">
             <h1 className="mx-auto my-9 text-center">
                 <div className="text-3xl ">
                     Best design for startups & scaleups state of the art
