@@ -30,8 +30,8 @@ function Landing() {
                 <p className="p-20 text-xl">
                     We build impactful UX design and branding for product-led companies around the world. Using the industry-proven methods Jobs to be Done and Design Sprints, we've developed a highly optimised process that brings results in just a few weeks.
                 </p>
-                <div className="flex-row flex-wrap justify-around">
-                    <div className="flex flex-col text-left">
+                <div className="flex flex-row flex-wrap justify-around">
+                    <div className="flex flex-col text-left max-w-md">
                         <img src="https://placeimg.com/200/200/cats" alt=""/>
                         <h3 className="text-6xl py-5">Products</h3>
                         <p className="text-lg flex flex-col">
@@ -59,7 +59,7 @@ function Landing() {
                             </button>
                         </p>
                     </div>
-                    <div className="text-6xl mt-32 flex flex-col text-left">
+                    <div className="text-6xl mt-32 flex flex-col text-left max-w-md">
                         <img src="https://placeimg.com/200/200/dogs" alt=""/>
                         <h3 className="py-5">Branding</h3>
                         <p className="text-lg flex flex-col">
@@ -90,8 +90,7 @@ function Landing() {
                 </div>
             </div>
             <div>
-                <div className=" transform transition duration-1000 ease-in-out hover:scale-95 motion-reduce:transform-none
-                 rounded-3xl p-3 m-5 h-full min-h-screen flex sm:flex-col lg:flex-row flex-wrap justify-between">
+                <div >
 
                     <BigCard
                         img="./robot.png"

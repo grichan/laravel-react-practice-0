@@ -6110,9 +6110,9 @@ function Landing() {
         className: "p-20 text-xl",
         children: "We build impactful UX design and branding for product-led companies around the world. Using the industry-proven methods Jobs to be Done and Design Sprints, we've developed a highly optimised process that brings results in just a few weeks."
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-        className: "flex-row flex-wrap justify-around",
+        className: "flex flex-row flex-wrap justify-around",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-          className: "flex flex-col text-left",
+          className: "flex flex-col text-left max-w-md",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", {
             src: "https://placeimg.com/200/200/cats",
             alt: ""
@@ -6161,7 +6161,7 @@ function Landing() {
             })]
           })]
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-          className: "text-6xl mt-32 flex flex-col text-left",
+          className: "text-6xl mt-32 flex flex-col text-left max-w-md",
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", {
             src: "https://placeimg.com/200/200/dogs",
             alt: ""
@@ -6213,7 +6213,6 @@ function Landing() {
       })]
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-        className: " transform transition duration-1000 ease-in-out hover:scale-95 motion-reduce:transform-none rounded-3xl p-3 m-5 h-full min-h-screen flex sm:flex-col lg:flex-row flex-wrap justify-between",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_BigCard__WEBPACK_IMPORTED_MODULE_3__.default, {
           img: "./robot.png",
           name: "App 1",
